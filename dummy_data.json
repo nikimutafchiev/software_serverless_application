@@ -1,0 +1,16 @@
+{
+  "movie":"Interstellar",
+  "year":2014,
+  "genre":"sci-fi",
+  "info":"story about space time continum",
+  "producer":"Christopher Nolan",
+  "actors":"Matthew McConaughey, Anne Hathaway"
+},
+{
+  "movie":"LOTR",
+  "year":2001,
+  "genre":"adventure",
+  "info":"story about ring",
+  "producer":"Peter Jackson",
+  "actors":"Orlando Bloom, Ian McKellen"
+}
