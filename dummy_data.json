@@ -2,7 +2,7 @@
   "movie":"Interstellar",
   "year":2014,
   "genre":"sci-fi",
-  "info":"story about space time continum",
+  "info":"space time continum",
   "producer":"Christopher Nolan",
   "actors":"Matthew McConaughey, Anne Hathaway"
 },
@@ -10,7 +10,60 @@
   "movie":"LOTR",
   "year":2001,
   "genre":"adventure",
-  "info":"story about ring",
+  "info":"One ring to be destroyed",
   "producer":"Peter Jackson",
   "actors":"Orlando Bloom, Ian McKellen"
+},
+{
+  "movie": "Inception",
+  "year": 2010,
+  "genre": "sci-fi",
+  "info": "A thief who enters the dreams of others to steal secrets from their subconscious",
+  "producer": "Christopher Nolan",
+  "actors": "Leonardo DiCaprio, Joseph Gordon-Levitt"
+},
+{
+"movie": "The Matrix",
+"year": 1999,
+"genre": "sci-fi",
+"info": "A computer programmer learns about the true nature of his reality",
+"producer": "The Wachowskis",
+"actors": "Keanu Reeves, Laurence Fishburne"
+},
+
+Here are 5 more dummy data entries in the specified format:
+
+json
+Copy code
+{
+"movie": "The Matrix",
+"year": 1999,
+"genre": "sci-fi",
+"info": "A computer programmer learns about the true nature of his reality and his role in the war against its controllers.",
+"producer": "The Wachowskis",
+"actors": "Keanu Reeves, Laurence Fishburne"
+},
+{
+  "movie": "Avatar",
+  "year": 2009,
+  "genre": "sci-fi",
+  "info": "A paraplegic marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home",
+  "producer": "James Cameron",
+  "actors": "Sam Worthington, Zoe Saldana"
+},
+{
+  "movie": "Star Wars: Episode IV - A New Hope",
+  "year": 1977,
+  "genre": "sci-fi",
+  "info": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee, and two droids to save the galaxy from the Empire's world-destroying battle station.",
+  "producer": "George Lucas",
+  "actors": "Mark Hamill, Harrison Ford, Carrie Fisher"
+},
+{
+  "movie": "Die Hard",
+  "year": 1988,
+  "genre": "action",
+  "info": "An NYPD officer tries to save his wife and several others taken hostage by German terrorists during a Christmas party at the Nakatomi Plaza in Los Angeles.",
+  "producer": "Lawrence Gordon, Joel Silver",
+  "actors": "Bruce Willis, Alan Rickman"
 }
