@@ -1,41 +1,71 @@
 //Interstellar
 {
-  "rating": 4.5,
+  "rating": 6.5,
   "review": "A breathtaking journey through space and time. Interstellar combines stunning visuals with a thought-provoking storyline that will leave you in awe.",
   "author": "CinemaEnthusiast87",
   "date": "2023-08-12"
 }
+ {
+    "rating": 7.7,
+    "review": "Interstellar is a visually stunning and emotionally gripping journey through space and time. Christopher Nolan's direction combined with stellar performances make it a cinematic masterpiece.",
+    "author": "SpaceExplorer99",
+    "date": "2023-05-12"
+  },
+  {
+    "rating": 8.5,
+    "review": "Interstellar is a thought-provoking and visually mesmerizing film that challenges the boundaries of science fiction. The storytelling is compelling, and the performances are outstanding.",
+    "author": "SciFiEnthusiast",
+    "date": "2023-10-08"
+  },
+  {
+    "rating": 5.8,
+    "review": "Interstellar is a breathtaking exploration of love, sacrifice, and the mysteries of the universe. Its stunning visuals and powerful themes linger long after the credits roll.",
+    "author": "GalacticExplorer",
+    "date": "2023-03-21"
+  },
+  {
+    "rating": 9.6,
+    "review": "Interstellar is a captivating blend of science fiction and human drama that keeps you on the edge of your seat. Its ambitious scope and emotional depth make it a standout film.",
+    "author": "Cinephile22",
+    "date": "2023-08-17"
+  },
+  {
+    "rating": 9.9,
+    "review": "Interstellar is a cinematic marvel that transcends the boundaries of storytelling. Its profound exploration of time, space, and humanity's place in the cosmos makes it an unforgettable experience.",
+    "author": "TimeTraveler",
+    "date": "2023-12-05"
+  }
 //Inception
 {
-  "rating": 4.8,
+  "rating": 9.9,
   "review": "A mind-bending masterpiece that keeps you on the edge of your seat from start to finish. Inception is a cinematic experience like no other.",
   "author": "FilmFanatic22",
   "date": "2023-06-25"
 }
 //Matrix
 {
-  "rating": 4.7,
+  "rating": 8.7,
   "review": "An iconic blend of action and philosophy. The Matrix revolutionized the sci-fi genre and continues to captivate audiences with its groundbreaking visuals and thought-provoking themes.",
   "author": "NeoWatcher",
   "date": "2023-10-17"
 }
 //LOTR
 {
-  "rating": 4.9,
+  "rating": 9.9,
   "review": "A timeless fantasy epic that brings J.R.R. Tolkien's masterpiece to life with breathtaking visuals and a captivating story. The Fellowship of the Ring sets the stage for an unforgettable adventure.",
   "author": "MiddleEarthExplorer",
   "date": "2023-07-08"
 }
 //The Martian
 {
-  "rating": 4.7,
+  "rating": 6.7,
   "review": "An exhilarating survival tale set against the backdrop of Mars. The Martian combines humor, suspense, and stunning visuals to deliver an unforgettable cinematic experience.",
   "author": "SpaceExplorer99",
   "date": "2023-09-14"
 }
 //Star Wars IV
 {
-  "rating": 4.9,
+  "rating": 7.3,
   "review": "A timeless classic that introduced audiences to a galaxy far, far away. Star Wars: Episode IV - A New Hope is an unforgettable adventure filled with iconic characters and groundbreaking special effects.",
   "author": "GalacticHero",
   "date": "2023-01-08"
