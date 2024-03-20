@@ -19,7 +19,7 @@
             "name": "MovieItems",
             "type": "sql",
             "direction": "in",
-            "commandText": "select * from dbo.Movies",
+            "commandText": "select *from dbo.Movies LEFT JOIN dbo.ratings on dbo.Movies.id = dbo.ratings.movie_id",
             "commandType": "Text",
             "connectionStringSetting": "SqlConnectionString"
         },
@@ -27,7 +27,7 @@
             "name": "CustomMovieItems",
             "type": "sql",
             "direction": "in",
-            "commandText": "select * from dbo.Movies where name = @Name",
+            "commandText": "select * from dbo.Movies LEFT JOIN dbo.Ratings on  dbo.Movies.id = dbo.Ratings.movie_id where Movies.name LIKE TRIM(@Name)",
             "commandType": "Text",
             "parameters": "@Name = {Query.name}",
             "connectionStringSetting": "SqlConnectionString"
