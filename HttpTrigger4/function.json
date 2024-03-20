@@ -1,0 +1,36 @@
+{
+    "bindings": [
+        {
+            "authLevel": "anonymous",
+            "type": "httpTrigger",
+            "direction": "in",
+            "name": "req",
+            "methods": [
+                "get",
+                "post"
+            ]
+        },
+        {
+            "type": "http",
+            "direction": "out",
+            "name": "res"
+        },
+        {
+            "name": "MovieItems",
+            "type": "sql",
+            "direction": "in",
+            "commandText": "select * from dbo.Movies",
+            "commandType": "Text",
+            "connectionStringSetting": "SqlConnectionString"
+        },
+        {
+            "name": "CustomMovieItems",
+            "type": "sql",
+            "direction": "in",
+            "commandText": "select * from dbo.Movies where name = @Name",
+            "commandType": "Text",
+            "parameters": "@Name = {Query.name}",
+            "connectionStringSetting": "SqlConnectionString"
+        }
+    ]
+}
