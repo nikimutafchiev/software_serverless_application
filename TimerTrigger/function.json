@@ -1,0 +1,18 @@
+{
+    "bindings": [
+        {
+            "name": "myTimer",
+            "type": "timerTrigger",
+            "direction": "in",
+            "schedule": "0 55 20 * * *"
+        },
+        {
+            "name": "AverageRating",
+            "type": "sql",
+            "direction": "out",
+            "commandText": "UPDATE Movies SET average_rating = (SELECT AVG(rating) FROM Ratings WHERE Ratings.movie_id = Movies.id);",
+            "commandType": "Text",
+            "connectionStringSetting": "SqlConnectionString"
+        }
+    ]
+}
