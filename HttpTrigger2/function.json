@@ -6,7 +6,6 @@
             "direction": "in",
             "name": "req",
             "methods": [
-                "get",
                 "post"
             ]
         },
@@ -20,6 +19,15 @@
             "direction": "out",
             "name": "Rating",
             "commandText": "dbo.Ratings",
+            "connectionStringSetting": "SqlConnectionString"
+        },
+        {
+            "name": "MovieName",
+            "type": "sql",
+            "direction": "in",
+            "commandText": "select name from dbo.Movies where id = @Id",
+            "commandType": "Text",
+            "parameters": "@Id = {movie_id}",
             "connectionStringSetting": "SqlConnectionString"
         }
     ]
